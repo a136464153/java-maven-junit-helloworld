@@ -102,5 +102,16 @@
       </plugin>
     </plugins>
   </reporting>
-
+  <ciManagement>
+      <system>Continuum</system>
+      <url>http://localhost:8080/continuum</url>
+    <notifiers>
+        <notifier>
+          <type>mail</type>
+        <address>136464153@qq.com</address>
+      </notifier>
+    </notifiers>
+  </ciManagement>
+  <scm>
+    <connection>scm:svn:https://github.com/a136464153/java-maven-junit-helloworld</connection>
 </project>
