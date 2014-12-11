@@ -29,3 +29,4 @@ This example follows the following basic conventions:
 __resides in:__ | `src/test/java/*Test.java` | `src/test/java/*IT.java`
 __executes in Maven phase:__ | test | verify
 __handled by Maven plugin:__ | [surefire](http://maven.apache.org/surefire/maven-surefire-plugin/) | [failsafe](http://maven.apache.org/surefire/maven-failsafe-plugin/)
+[ ![Codeship Status for a136464153/java-maven-junit-helloworld](https://codeship.com/projects/a04c5b70-632c-0132-c183-1a1bd55739b4/status?branch=master)](https://codeship.com/projects/52252)
